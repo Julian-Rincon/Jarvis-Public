@@ -1,0 +1,29 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Secrets / local runtime
+.env
+*.env
+token.json
+credentials.json
+
+# Demo artifacts to review before publishing
+*.log
+*.jsonl
+*.wav
+*.mp3
+*.mp4
+*.zip
+
+# Build outputs
+build/
+dist/
